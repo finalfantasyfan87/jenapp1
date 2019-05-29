@@ -1,0 +1,1 @@
+web: gunicorn jenapp1.wsgi
