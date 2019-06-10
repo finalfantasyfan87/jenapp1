@@ -22,6 +22,6 @@ from django.conf.urls.static import static
 from jenapp1 import views
 
 urlpatterns = [
-    url('resume', views.resume, name='resume'),
+    url('/', views.resume, name='resume'),
     path('admin/', admin.site.urls),
 ]
